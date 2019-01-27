@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "ip": "^1.1.5",
+    "socket.io": "^2.2.0",
+    "tymlogger": "^1.0.0"
+  }
+}

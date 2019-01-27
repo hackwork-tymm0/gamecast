@@ -1,0 +1,33 @@
+{
+  "name": "gamecast",
+  "version": "0.0.1",
+  "description": "Играй в HTML5 игры с помощью смартфона",
+  "main": "src/Main.js",
+  "scripts": {
+    "gamepad:start": "cd src/gamepad && npm start",
+    "server:start": "node src/server/runner",
+    "screen:start": "cd src/screen && npm start",
+    "gamepad:dev": "cd src/gamepad && npm start",
+    "server:dev": "npx nodemon src/server/runner",
+    "screen:dev": "cd src/screen && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackwork-tymm0/gamecast.git"
+  },
+  "keywords": [
+    "html5games",
+    "gamepad",
+    "controller",
+    "smartphone"
+  ],
+  "author": "tymm0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackwork-tymm0/gamecast/issues"
+  },
+  "homepage": "https://github.com/hackwork-tymm0/gamecast#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
