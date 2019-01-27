@@ -17,6 +17,6 @@ C:\> cd gamecast
 C:\> .\install.bat
 ```
 
-# Credits
-Grigoriy tymm0 Getz [VK](https://vk.com/tymmo)<br />
+# спасибы ыыыыы =)
+Григорий tymm0 Гец [VK](https://vk.com/tymmo)<br />
 Ксюшонька [<3](https://vk.com/justweirdguy)
