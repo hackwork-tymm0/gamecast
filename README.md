@@ -1,3 +1,5 @@
+
+![cat](/cover.png)
 # GameCast
 Играй в HTML5 игры с помощью смартфона
 
