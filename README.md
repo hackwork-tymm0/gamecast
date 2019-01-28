@@ -1,5 +1,5 @@
 
-![cat](/cover.png)
+![cat](/images/cover.png)
 # GameCast
 Играй в HTML5 игры с помощью смартфона
 

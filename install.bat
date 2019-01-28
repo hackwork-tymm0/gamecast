@@ -29,6 +29,4 @@ cd ..\..\
 echo "INSTALL GLOBAL LIBRARIES"
 npm install
 
-cls
-
 echo "DONE!"
