@@ -1,14 +1,14 @@
 {
   "name": "gamecast",
-  "version": "0.0.1",
+  "version": "0.2.5",
   "description": "Играй в HTML5 игры с помощью смартфона",
   "main": "src/Main.js",
   "scripts": {
     "gamepad:start": "cd src/gamepad && npm start",
-    "server:start": "node src/server/runner",
+    "gphost:start": "node src/server/runner",
     "screen:start": "cd src/screen && npm start",
     "gamepad:dev": "cd src/gamepad && npm start",
-    "server:dev": "npx nodemon src/server/runner",
+    "gphost:dev": "npx nodemon src/server/runner",
     "screen:dev": "cd src/screen && npm start",
     "gamepad:test": "node controllerTest"
   },
@@ -35,5 +35,8 @@
     "socket.io-client": "^2.2.0",
     "tymlogger": "^1.0.0",
     "ws": "^6.1.3"
+  },
+  "bin": {
+    "gamestart": "./bin/gamestart.js"
   }
 }

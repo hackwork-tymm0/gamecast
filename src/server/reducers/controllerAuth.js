@@ -7,15 +7,16 @@ module.exports = function (state, payload) {
     let newState = {...state};
     let controllers = [];
     let added = false;
-    console.log(state);
     for (let controller of state.controllers) {
         if (added !== true) {
-            if (controller.activated != 1) {
+            if (controller.activated === 0) {
                 added = true;
                 
                 const newController = {
                     activated: 1,
-                    client: payload
+                    client: payload,
+                    id: payload.conn.id,
+                    key: "NONE"
                 };
 
                 controllers.push(newController);

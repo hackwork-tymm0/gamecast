@@ -10,6 +10,10 @@ const controllerDisconnect = require("./reducers/controllerDisconnect");
 const screenAuth = require("./reducers/screenAuth");
 const screenDisconnect = require("./reducers/screenDisconnect");
 
+// Keys Reducers
+const keyPress = require("./reducers/keyPress");
+const keyUnPress = require("./reducers/keyUnPress");
+
 const log = new TymLogger();
 
 module.exports = function (state, action) { 
@@ -27,6 +31,12 @@ module.exports = function (state, action) {
         
         case "SCREEN_DISCONNECT":
             return screenDisconnect(state);
+
+        case "KEY_PRESS":
+            return keyPress(state, action.payload);
+        
+        case "KEY_UNPRESS":
+            return keyUnPress(state, action.payload);
 
         default:
             return {...state};

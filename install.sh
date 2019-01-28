@@ -24,4 +24,7 @@ cd ../../
 echo "INSTALL GLOBAL LIBRARIES"
 npm install
 
+echo "CREATE SYMLINKS..."
+npm link
+
 echo "DONE!"
